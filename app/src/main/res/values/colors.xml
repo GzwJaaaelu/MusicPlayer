@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ce3d3d</color>
+    <color name="colorPrimaryTint">#EF5350</color>
+    <color name="colorAccent">#424242</color>
+</resources>

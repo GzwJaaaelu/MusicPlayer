@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@drawable/btn_with_radius_ripple"
+    android:clickable="true"
+    android:paddingLeft="16dp"
+    android:paddingTop="9dp">
+
+    <ImageView
+        android:id="@+id/iv_music_album"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:src="@drawable/a9d"/>
+
+    <TextView
+        android:id="@+id/tv_music_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:layout_toRightOf="@id/iv_music_album"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textSize="16sp"
+        tools:text="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/tv_music_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_music_title"
+        android:layout_toRightOf="@id/iv_music_album"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        tools:text="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/tv_music_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@id/iv_music_album"
+        android:gravity="right"
+        tools:text="@string/app_name"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorAccent"/>
+
+</RelativeLayout>
